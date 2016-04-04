@@ -11,7 +11,6 @@ export default Ember.Component.extend({
         author: this.get('author') ? this.get('author'): "",
         title: this.get('title'),
         content: this.get('content') ? this.get('content'): "",
-        date: this.get('date') ? this.get('date'): "",
         price: parseInt(this.get('price')),
         city: this.get('city') ? this.get('city'): "",
         state: this.get('state') ? this.get('state'): "",

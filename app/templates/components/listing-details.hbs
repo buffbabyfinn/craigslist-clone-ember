@@ -1,1 +1,8 @@
-{{yield}}
+Seller: {{listing.author}}<br>
+{{listing.title}},
+ {{listing.content}}.<br>
+Available: {{formatTime listing.date}}<br>
+Price: ${{listing.price}}. <br>
+{{listing.city}},
+ {{listing.state}}.
+<img src="{{listing.imageUrl}}" alt="{{listing.title}}" /><br>

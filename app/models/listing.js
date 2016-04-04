@@ -5,7 +5,7 @@ export default DS.Model.extend({
   author: DS.attr(),
   title: DS.attr(),
   content: DS.attr(),
-  date: DS.attr(),
+  date: DS.attr('date', { defaultValue() {return new Date(); }}),
   price: DS.attr(),
   city: DS.attr(),
   state: DS.attr(),
