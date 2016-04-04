@@ -1,0 +1,34 @@
+{
+  "categories": [{
+    "name": "For Sale"
+    }],
+  "listings": [{
+    "author": "Jim Bob",
+    "title": "Ford Fusion",
+    "content": "Sick Ass piece of shit car",
+    "price": 450,
+    "date": "03-23-2016",
+    "city": "Portland",
+    "state": "OR",
+    "category": "0"
+  },{
+    "author": "Billy Bob",
+    "title": "Cruiser Bike",
+    "content": "Sick Ass commuter machine",
+    "price": 150,
+    "date": "03-23-2016",
+    "city": "Portland",
+    "state": "OR",
+    "category": "0"
+
+  },{
+    "author": "Bobby Bob",
+    "title": "PlayStation 3",
+    "content": "Only has a little bit of mountain dew in it. ",
+    "price": 45,
+    "date": "03-23-2016",
+    "city": "Portland",
+    "state": "OR",
+    "category": "0"
+  }]
+}
